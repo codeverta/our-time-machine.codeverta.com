@@ -3,7 +3,7 @@ import type { CharacterChoice, Discovery, Lang, NpcDefinition, SceneAsset } from
 export const CHARACTERS: CharacterChoice[] = [
   ...["a", "b", "c", "d", "e", "f"].map((variant, index) => ({ id: `male-${variant}`, name: `Penjelajah Putra ${variant.toUpperCase()}`, short: `P${index + 1}`, group: "Putra" as const, path: `/assets/characters/character-male-${variant}.glb` })),
   ...["a", "b", "c", "d", "e", "f"].map((variant, index) => ({ id: `female-${variant}`, name: `Penjelajah Putri ${variant.toUpperCase()}`, short: `W${index + 1}`, group: "Putri" as const, path: `/assets/characters/character-female-${variant}.glb` })),
-  { id: "roblox-bacon-hair", name: "Roblox Bacon Hair", short: "RB", group: "Special", path: "/assets/characters/roblox-bacon-hair.glb" },
+
 ];
 
 export const ERAS = [

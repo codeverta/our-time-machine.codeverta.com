@@ -16,7 +16,7 @@ export type CharacterChoice = {
   id: string;
   name: string;
   short: string;
-  group: "Putra" | "Putri" | "Special";
+  group: "Putra" | "Putri";
   path: string;
 };
 
